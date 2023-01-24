@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/40d26c1a76.js" crossorigin="anonymous"></script>
+
+    <!-- Css Stylesheet -->
+    <link rel="stylesheet" href="Portfolio.css">
+
+    <title>Personal Portfolio</title>
+</head>
+<body>
+
+    <!-- Front page -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="Portfolio.html"><img src="Logo.png" class="logo"></a>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Made by AP</h1>
+                <p>Good website makes a statement, and that's what sets Ayush<br>apart. His mediums are as bold as his message. Loud,<br>proud, no limits allowed - these are what define anything <br> Made by AP.</p>
+                <a href="#">WORK WITH AP</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Protfolio Page -->
+
+    <div id="Portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="Portfolio-col-1">
+                    <p>HI, I'M AP.</p>
+                    <h1>I design website with <br> passion.</h1>
+                </div>
+                <div class="Portfolio-col-2">
+                    <p>The medium is the message, but the message also <br> defines the medium. I am constantly experimenting <br> with both, without limits or restrictions. My only rule: <br> Create only when there's something to say.</p>
+                    <p class="below-p">My art is my statement, and always will be.</p>
+                    <a href="#">SEE WHAT I'VE DONE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My about page -->
+
+    <div id="about">
+        <div class="box">
+            <div class="about-row">
+                <div class="about-col-1">
+                    <h1>About Me</h1>
+                    <p>Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / UX design, delivering quality <br> work. Not only this but also with some knowledge about app <br> development i've work on app designing.</p>
+                </div>
+                <div class="about-col-2">
+                    <p class="tab-links active-line" onclick="Opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="Opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="Opentab('education')">Education</p>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web application development</li>
+                            <li><span>UI/UX</span><br>Design Posters/Web Interfaces</li>
+                            <li><span>App Development</span><br>Building Andriod Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-current</span><br>Intership as Web Developer at Oasis Infobyte.</li>
+                            <li><span>2022-current</span><br>Design head at SPCA.</li>
+                            <li><span>2021-2022</span><br>Design Member at SPCA.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-current</span><br>Pursuing B.E from St. John College of Engineering and Management.</li>
+                            <li><span>2018-2020</span><br>11th & 12th from SDSM College.</li>
+                            <li><span>2008-2018</span><br>School from K.E.H.S.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- My Serivce page -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="text-service">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-draw-polygon"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, in. Commodi voluptates provident voluptas saepe. Maiores accusamus eligendi harum nisi temporibus ducimus totam quidem odit amet.</p>
+                    <a href="#">View more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, in. Commodi voluptates provident voluptas saepe. Maiores accusamus eligendi harum nisi temporibus ducimus totam quidem odit amet.</p>
+                    <a href="#">View more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Designing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, in. Commodi voluptates provident voluptas saepe. Maiores accusamus eligendi harum nisi temporibus ducimus totam quidem odit amet.</p>
+                    <a href="#">View more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- My contact page -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="contact-row">
+                <div class="contact-col-1">
+                    <h1 class="text-contact">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9548617234</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#" class="CV">DOWNLOAD MY CV </a>
+                    </div>
+                </div>
+                <div class="contact-col-2">
+                    <form>
+                        <input type="text" name="Name" placeholder="Ayush Patil" required>
+                        <input type="email" name="Email" placeholder="ayush02@gmail.com" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Ayush 2023 - All Rights Reserved </p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function Opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-line");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-line")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+</body>
+</html>
