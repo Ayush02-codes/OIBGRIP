@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/40d26c1a76.js" crossorigin="anonymous"></script>
+
+    <!-- Css Stylesheet -->
+    <link rel="stylesheet" href="calculateTemp.css">
+    
+    <title>Temperature Converter</title>
+</head>
+<body>
+
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+        <label for="temp">Please enter the temperature you'd like to convert.</label>
+        <br /><input type="number" name="temp" id="temp">
+
+        <select name="temp_diff" id="temp_diff">
+            <option value="cel">&#176;Celsius</option>
+            <option value="fah">&#176;Fahrenheit</option>
+        </select> <br />
+
+        <input type="submit" name="temp"><br />
+        <span id="resultContainer"></span>
+
+    </form>    
+
+    <script src="calculateTemp.js"></script>
+</body>
+</html>
